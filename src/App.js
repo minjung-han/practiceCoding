@@ -7,6 +7,9 @@ import styles from "./App.module.css";
 function App() {
   return (
     <div className="App">
+      {/* 동일한 컴포넌트라도 이벤트가 각각 적용된다 */}
+      <Hello/>
+      <Hello/>
       <Hello/>
     </div>
   );
