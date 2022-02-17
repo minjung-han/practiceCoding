@@ -1,4 +1,3 @@
-import { useState } from "react";
 import World from "./World";
 import "./Hello.module.css"
 

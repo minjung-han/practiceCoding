@@ -1,7 +1,6 @@
 
 import { useState } from "react";
 
-let name = "Mike";
 
 export default function Event() {
 
