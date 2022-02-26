@@ -45,3 +45,14 @@ let name = user.name;
 let age = user.age;
 
 
+let boy = {
+    name: 'John', 
+    age: 28,
+    gender: 'male'
+};
+let {name, age, gender ='female'} = user;
+
+console.log(gender);    // 'male'
+
+
+
