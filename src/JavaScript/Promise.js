@@ -117,14 +117,14 @@ const f3 = (message) => {
 Promise.all([f1(), f2(), f3()])
 .then(res => {
     console.log(res);
-})
+});
 
 
 //Promise.race
 Promise.race([f1(), f2(), f3()])
 .then(res => {
     console.log(res);
-})
+});
 
 
 
