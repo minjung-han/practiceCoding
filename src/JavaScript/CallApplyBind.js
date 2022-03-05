@@ -91,10 +91,15 @@ updateJohn(1770, "singer");
 const user = {
     name: 'Tom',
     showName: function () {
-        console.log(`hello ${this.name}`);
+        console.log(`hello, ${this.name}`);
     },
 };
 
+user.showName();    // hello, Tom
 
+let fn = user.showName();
 
+fn();   // hello, 
 
+fn.call(user);  // hello, Tom
+fn.apply(user); // hello, Tom
